@@ -1,0 +1,8 @@
+/venv
+
+.env
+
+db-creation.sql
+
+Empleados.xlsx
+Empresa.xlsx
