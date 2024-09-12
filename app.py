@@ -47,3 +47,6 @@ if uploaded_files and len(uploaded_files) >= 2:
     else:
         # Mostrar un mensaje de error si alguno de los archivos no se pudo leer
         st.error("Error: One or both files could not be read.")
+
+
+
