@@ -33,7 +33,7 @@ def insert_data_in_bulk(df, table_name='empleados'):
             # Ejecutar la consulta en bloque
             cursor.executemany(insert_query, data)
             
-            # Confirmar la transacción
+            
             connection.commit()
 
             st.write(f"{cursor.rowcount} rows inserted successfully.")
