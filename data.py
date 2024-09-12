@@ -43,7 +43,7 @@ def insert_data_in_bulk(df, table_name='empleados'):
         if connection:
             connection.rollback()
 
-# cierre de conecciones
+# cierre de conexión
     finally:
         if cursor:
             cursor.close()
